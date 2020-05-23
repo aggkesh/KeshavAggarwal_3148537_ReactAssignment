@@ -59,7 +59,6 @@ const requestUrl = (search, activePage, sort) => {
             break;
         default:    
     }
-
     return url
 }
 
