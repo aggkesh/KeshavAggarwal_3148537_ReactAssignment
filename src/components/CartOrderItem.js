@@ -1,7 +1,12 @@
 import React from 'react';
-import { Table, Card, Button } from 'react-bootstrap';
+import { connect } from 'react-redux';
+import { clearCart, placeOrder } from '../redux';
+import { Table, Card, Button, ButtonGroup } from 'react-bootstrap';
+import { useHistory  } from 'react-router-dom'
 
-const CartOrderItem = ({ cartData }) => {
+const CartOrderItem = ({ cartData, authData, clearCart, placeOrder }) => {
+    const history = useHistory()
+
     return (
         <Card>
             <Card.Body>
@@ -21,9 +26,33 @@ const CartOrderItem = ({ cartData }) => {
                     </tr>
                 </Table>
             </Card.Body>
-            <Button variant="secondary">Place Order</Button>
+            <ButtonGroup aria-label="Basic example">
+                <Button variant="outline-danger" onClick={() => clearCart()}>Clear Cart</Button>
+                <Button variant="outline-success" onClick={() => placeOrder(cartData, authData, history)}>Place Order</Button>
+            </ButtonGroup>
         </Card>            
     )
 }
 
-export default CartOrderItem
+const mapStateToProps = state => {
+    return {
+        cartData: state.cart,
+        authData: state.auth
+    }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        clearCart: () => dispatch(clearCart()),
+        placeOrder: (cart, authData, history) => {
+            if(authData.authenticated) {
+                dispatch(placeOrder(cart, authData.username, history))   
+            } else {
+                alert("You need to login to place order !!")
+                history.push('/signin')
+            }
+        }
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(CartOrderItem)

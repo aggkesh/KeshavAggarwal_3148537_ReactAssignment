@@ -28,9 +28,11 @@ const CartItemRow = ({ product, productQuantity, removeProductCart, changeProduc
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu>
-                                <Dropdown.Item onClick={() => changeProductQuantityInCart(product, 1)}>1</Dropdown.Item>
-                                <Dropdown.Item onClick={() => changeProductQuantityInCart(product, 2)}>2</Dropdown.Item>
-                                <Dropdown.Item onClick={() => changeProductQuantityInCart(product, 3)}>3</Dropdown.Item>
+                                {
+                                    Array.from(Array(10).keys()).map(
+                                        value => <Dropdown.Item onClick={() => changeProductQuantityInCart(product, value + 1)}>{ value + 1 }</Dropdown.Item>                                    
+                                    )
+                                }
                             </Dropdown.Menu>
                         </Dropdown>
                     </Col>

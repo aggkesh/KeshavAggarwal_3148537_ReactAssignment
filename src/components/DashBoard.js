@@ -5,11 +5,13 @@ import ProductDeck from './ProductDeck';
 import PagiNation from './PagiNation';
 import { fetchProducts } from '../redux';
 import DashboardHeader from './DashboardHeader';
+import { useHistory  } from 'react-router-dom';
 
 const DashBoard = ({ productData, fetchProducts }) => {
-    
+    const history = useHistory();
+
     useEffect(() => {
-        fetchProducts(productData.search, productData.activePage, productData.sort)
+        fetchProducts(productData.search, productData.activePage, productData.sort, history)
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
@@ -47,7 +49,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        fetchProducts: (search, activePage, sort) => dispatch(fetchProducts(search, activePage, sort))
+        fetchProducts: (search, activePage, sort, history) => dispatch(fetchProducts(search, activePage, sort, history))
     }
 }
 

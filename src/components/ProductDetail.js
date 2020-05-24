@@ -3,13 +3,15 @@ import { connect } from 'react-redux';
 import { Image, Container, Row, Col, Button, Spinner } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { fetchProductDetail, addProductCart } from '../redux';
+import { useHistory  } from 'react-router-dom';
 
 const ProductDetail = (props) => {
     
     const { productDetailData, fetchProductDetail, addProductCart, cartData } = props
+    const history = useHistory()
 
     useEffect(() => {
-        fetchProductDetail(props.match.params.id)
+        fetchProductDetail(props.match.params.id, history)
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
@@ -76,7 +78,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        fetchProductDetail: (id) => dispatch(fetchProductDetail(id)),
+        fetchProductDetail: (productId, history) => dispatch(fetchProductDetail(productId, history)),
         addProductCart: product => dispatch(addProductCart(product))
     }
 }

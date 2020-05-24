@@ -1,3 +1,5 @@
 export * from './productList/productsActions'
 export * from './productDetail/productDetailActions'
 export * from './cart/cartActions'
+export * from './authentication/authenticationActions'
+export * from './order/orderActions'

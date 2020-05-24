@@ -1,5 +1,10 @@
-import axios from 'axios'
-import { FETCH_PRODUCTDETAIL_REQUEST, FETCH_PRODUCTDETAIL_SUCCESS, FETCH_PRODUCTDETAIL_FAILURE } from "./productDetailTypes"
+import axios from 'axios';
+import { 
+    FETCH_PRODUCTDETAIL_REQUEST, 
+    FETCH_PRODUCTDETAIL_SUCCESS, 
+    FETCH_PRODUCTDETAIL_FAILURE, 
+    FETCH_PRODUCTDETAIL_URL 
+} from './productDetailTypes';
 
 export const fetchProductDetailRequest = () => {
     return {
@@ -21,14 +26,14 @@ export const fetchProductDetailFailure = error => {
     }
 }
 
-export const fetchProductDetail = (productid) => {
+export const fetchProductDetail = (productId, history) => {
     return (dispatch) => {
-        const url = 'http://localhost:3000/products/' + productid
-        createRequest(url, dispatch)
+        const url = FETCH_PRODUCTDETAIL_URL + '/' + productId
+        createRequest(url, history, dispatch)
     }
 }
 
-const createRequest= (url, dispatch) => {
+const createRequest= (url, history, dispatch) => {
     dispatch(fetchProductDetailRequest());    
     axios.get(url)
         .then(response => {
@@ -38,5 +43,6 @@ const createRequest= (url, dispatch) => {
         .catch(error => {
             const errorMessage = error.message
             dispatch(fetchProductDetailFailure(errorMessage))
+            history.push('/error/500')
         });
 }

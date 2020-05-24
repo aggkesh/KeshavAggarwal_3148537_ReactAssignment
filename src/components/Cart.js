@@ -1,11 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Table, Container, Row, Col } from 'react-bootstrap';
-import { fetchCart, clearCart } from '../redux';
 import CartOrderItem from './CartOrderItem';
 import CartItemRow from './CartItemRow';
 
-const Cart = ({ cartData, fetchCart, clearCart}) => {
+const Cart = ({ cartData }) => {
     return cartData && cartData.products && cartData.products.length <= 0 ? (
         <h2>Cart Is Empty</h2>
     ) : ( <Container className="m-2">
@@ -27,7 +26,7 @@ const Cart = ({ cartData, fetchCart, clearCart}) => {
                     </Table>
                 </Col>
                 <Col sm={3}>
-                    <CartOrderItem cartData={ cartData } />
+                    <CartOrderItem />
                 </Col>
             </Row>
         </Container>
@@ -40,11 +39,4 @@ const mapStateToProps = state => {
     }
 }
 
-const mapDispatchToProps = dispatch => {
-    return {
-        fetchCart: () => dispatch(fetchCart()),
-        clearCart: (product, productQuantity) => dispatch(clearCart(product, productQuantity))
-    }
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Cart)
+export default connect(mapStateToProps, null)(Cart)

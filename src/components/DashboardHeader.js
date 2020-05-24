@@ -1,9 +1,12 @@
 import React from 'react';
-import { Dropdown, Col } from 'react-bootstrap'
+import { Dropdown, Col } from 'react-bootstrap';
 import { DEFAULT_SORT, LOW_TO_HIGH_SORT, HIGH_TO_LOW_SORT } from '../redux/productList/productsTypes';
+import { useHistory  } from 'react-router-dom';
 
 const DashboardHeader = ({ fetchProducts, productData }) => {
-    const items = [DEFAULT_SORT, LOW_TO_HIGH_SORT, HIGH_TO_LOW_SORT]
+    const history = useHistory();
+    const items = [DEFAULT_SORT, LOW_TO_HIGH_SORT, HIGH_TO_LOW_SORT];
+
     return (
         <React.Fragment>
                 <Col>
@@ -17,7 +20,9 @@ const DashboardHeader = ({ fetchProducts, productData }) => {
 
                         <Dropdown.Menu>
                             {
-                                items.map(item => <Dropdown.Item active={ productData.sort === item } onClick={() => fetchProducts(productData.search, productData.activePage, item)}>{ item }</Dropdown.Item>)
+                                items.map(item => <Dropdown.Item active={ productData.sort === item } onClick={
+                                        () => fetchProducts(productData.search, productData.activePage, item, history)}>{ item }
+                                    </Dropdown.Item>)
                             }
                         </Dropdown.Menu>
                     </Dropdown>

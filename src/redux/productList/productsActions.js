@@ -40,9 +40,9 @@ export const fetchProductsFailure = error => {
     }
 }
 
-export const fetchProducts = (search, activePage, sort) => {
+export const fetchProducts = (search, activePage, sort, history) => {
     return (dispatch) => {
-        createRequest(requestUrl(search, activePage, sort), search, activePage, sort, dispatch)
+        createRequest(requestUrl(search, activePage, sort), search, activePage, sort, history, dispatch)
     }
 }
 
@@ -67,7 +67,7 @@ const baseURL = (search) => {
         : URL_PRODUCTS_FETCH + '?' + TITLE_LIKE_QUERY + search + '&';
 }
 
-const createRequest= (url, search, activePage, sort, dispatch) => {
+const createRequest= (url, search, activePage, sort, history, dispatch) => {
     dispatch(fetchProductsRequest());    
     axios.get(url)
         .then(response => {
@@ -78,5 +78,6 @@ const createRequest= (url, search, activePage, sort, dispatch) => {
         .catch(error => {
             const errorMessage = error.message
             dispatch(fetchProductsFailure(errorMessage))
+            history.push('/error/500')
         });
 }

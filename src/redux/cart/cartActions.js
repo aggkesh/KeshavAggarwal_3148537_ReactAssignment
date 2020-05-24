@@ -1,10 +1,9 @@
-import { FETCH_CART, ADD_PRODUCT_CART, REMOVE_PRODUCT_CART, CLEAR_CART, CHANGE_PRODUCT_QUANTITY_IN_CART } from "./cartTypes"
-
-export const fetchCart = () => {
-    return {
-        type: FETCH_CART
-    }
-}
+import { 
+    ADD_PRODUCT_CART, 
+    REMOVE_PRODUCT_CART, 
+    CLEAR_CART, 
+    CHANGE_PRODUCT_QUANTITY_IN_CART 
+} from './cartTypes';
 
 export const addProductCart = product => {
     return {

@@ -1,4 +1,4 @@
-import { FETCH_CART, ADD_PRODUCT_CART, REMOVE_PRODUCT_CART, CLEAR_CART, CHANGE_PRODUCT_QUANTITY_IN_CART } from "./cartTypes"
+import { ADD_PRODUCT_CART, REMOVE_PRODUCT_CART, CLEAR_CART, CHANGE_PRODUCT_QUANTITY_IN_CART } from "./cartTypes"
 
 const initialState = {
     cartSubTotal: 0,
@@ -9,8 +9,6 @@ const initialState = {
 
 const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case FETCH_CART:
-            return state
         case ADD_PRODUCT_CART:
             return addProductToCart(state, action.payload)
         case REMOVE_PRODUCT_CART:

@@ -13,6 +13,7 @@ const Product = ({ product, addProductCart, cartData }) => {
             <Card.Img variant="top" src={ product.img } />
             <Card.Body>
                 <Card.Title>{ product.title }</Card.Title>
+                <span>Rs { product.price }/-</span>
             </Card.Body>
             <ButtonGroup aria-label="Basic example">
                 <Link to={ "/productdetail/" + product.id } className="btn btn-outline-primary">View</Link>
