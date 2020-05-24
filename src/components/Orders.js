@@ -1,11 +1,15 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { Spinner, Table, Container } from 'react-bootstrap';
+import { Spinner, Table, Container, Image } from 'react-bootstrap';
 import { fetchOrders } from '../redux';
 import { Link, useHistory } from "react-router-dom";
 
 const Orders = ({ authData, ordersData, fetchOrders }) => {
     const history = useHistory();
+
+    if(!authData.authenticated) {
+        history.push('/error/401');
+    }
 
     useEffect(() => {
         fetchOrders(authData.username, history)
@@ -20,33 +24,39 @@ const Orders = ({ authData, ordersData, fetchOrders }) => {
     ) : ordersData.error ? (
         <h2>ordersData.error</h2>
     ) : (
-        <Container className="m-2">
-            <h2 className="mb-4">List of Orders Placed</h2>
-            <Table striped bordered hover>
-                <thead>
-                    <tr>
-                        <th>Order Id</th>
-                        <th>Number of Products</th>
-                        <th>DateTime</th>
-                        <th>Order Total</th>
-                        <th>Order Detail</th>
-                    </tr>
-                        </thead>
-                        <tbody>
-                            {
-                                ordersData.orders.map(order => 
-                                    <tr>
-                                        <td>{ order.id }</td>
-                                        <td>{ order.products.length }</td>
-                                        <td>{ order.orderDateAndTime }</td>
-                                        <td>{ order.orderTotal }</td>
-                                        <td><Link to={ "/orderdetail/" + order.id } className="btn btn-outline-primary">View Order</Link></td>
-                                    </tr>
-                                )
-                            }
-                        </tbody>
-            </Table>
-        </Container>
+        ordersData && ordersData.length <= 0 ? (
+            <div className="p-4 d-flex justify-content-center">
+                <Image src={ '/img/noorderfound.png' } className="w-50"></Image>
+            </div>
+        ) : (
+            <Container className="m-2">
+                <h2 className="mb-4">List of Orders Placed</h2>
+                <Table striped bordered hover>
+                    <thead>
+                        <tr>
+                            <th>Order Id</th>
+                            <th>Number of Products</th>
+                            <th>DateTime</th>
+                            <th>Order Total</th>
+                            <th>Order Detail</th>
+                        </tr>
+                            </thead>
+                            <tbody>
+                                {
+                                    ordersData.orders.map(order => 
+                                        <tr>
+                                            <td>{ order.id }</td>
+                                            <td>{ order.products.length }</td>
+                                            <td>{ order.orderDateAndTime }</td>
+                                            <td>{ order.orderTotal }</td>
+                                            <td><Link to={ "/orderdetail/" + order.id } className="btn btn-outline-primary">View Order</Link></td>
+                                        </tr>
+                                    )
+                                }
+                            </tbody>
+                </Table>
+            </Container>
+        )
     )
 }
 

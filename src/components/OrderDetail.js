@@ -5,8 +5,12 @@ import { fetchOrderDetail } from '../redux';
 import { useHistory  } from 'react-router-dom';
 
 const OrderDetail = (props) => {
-    const { fetchOrderDetail, orderDetailData } = props
+    const { fetchOrderDetail, orderDetailData, authData } = props
     const history = useHistory();
+
+    if(!authData.authenticated) {
+        history.push('/error/401');
+    }
 
     useEffect(() => {
         fetchOrderDetail(props.match.params.id, history)
@@ -100,7 +104,8 @@ const renderOrderDetailBody = (products) => {
 
 const mapStateToProps = (state) => {
     return {
-        orderDetailData: state.orderDetail
+        orderDetailData: state.orderDetail,
+        authData: state.auth
     }
 }
 

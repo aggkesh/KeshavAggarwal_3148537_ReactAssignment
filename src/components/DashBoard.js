@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
-import { Spinner, Row, Col } from 'react-bootstrap';
+import { Spinner, Row, Col, Image } from 'react-bootstrap';
 import ProductDeck from './ProductDeck';
 import PagiNation from './PagiNation';
 import { fetchProducts } from '../redux';
@@ -24,19 +24,29 @@ const DashBoard = ({ productData, fetchProducts }) => {
         <h2>productData.error</h2>
     ) : (
         <React.Fragment>
-            <Row  className="mt-4 mr-4 ml-4">
-                <DashboardHeader productData={ productData } fetchProducts={ fetchProducts } />
-            </Row>
-            <Row>
-                <Col>
-                    <ProductDeck products={ productData && productData.products ? productData.products : [] } />
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <PagiNation productData={ productData } fetchProducts={ fetchProducts }/>
-                </Col>
-            </Row>
+            {
+                productData && productData.products && productData.products.length <= 0 ? (
+                    <div className="d-flex justify-content-center">
+                        <Image src={ '/img/noproductfound.jpg' } className="w-25"></Image>
+                    </div>
+                ) : (
+                    <React.Fragment>
+                        <Row className="m-4">
+                            <DashboardHeader productData={ productData } fetchProducts={ fetchProducts } />
+                        </Row>
+                        <Row>
+                            <Col>
+                                <ProductDeck products={ productData.products } />
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <PagiNation productData={ productData } fetchProducts={ fetchProducts }/>
+                            </Col>
+                        </Row>
+                    </React.Fragment>
+                )
+            }
         </React.Fragment>
     )
 }

@@ -25,7 +25,7 @@ const NavigationBar = ({ authData, logout }) => {
               authData.authenticated ? ( 
                 <NavDropdown title={ authData.username } id="basic-nav-dropdown">
                   <NavDropdown.Item  onClick={() => history.push('/orders')}>My Order</NavDropdown.Item>
-                  <NavDropdown.Item onClick={() => logout()}>Logout</NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => logout(history)}>Logout</NavDropdown.Item>
                 </NavDropdown>
               ) : (<Link to="/signin" className="nav-link"><span className="mr-2"><i className="fas fa-user" /></span>Login</Link>) 
             }
@@ -44,7 +44,10 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-      logout: () => dispatch(logout())
+      logout: (history) => {
+        dispatch(logout())
+        history.push('/dashboard')
+      }
   }
 }
 

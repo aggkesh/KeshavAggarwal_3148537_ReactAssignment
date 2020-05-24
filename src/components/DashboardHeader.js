@@ -10,7 +10,7 @@ const DashboardHeader = ({ fetchProducts, productData }) => {
     return (
         <React.Fragment>
                 <Col>
-                    <h1 className="font-weight-bold">Dashboard</h1>
+                    <span className="display-4 font-weight-bold">Dashboard</span>
                 </Col>
                 <Col>
                     <Dropdown  className="float-right">
