@@ -209,6 +209,56 @@
         }
       ],
       "id": 1
+    },
+    {
+      "username": "Keshav Aggarwal",
+      "orderDateAndTime": "2020-5-25 17:25:56",
+      "orderSubTotal": 89000,
+      "orderTax": 10680,
+      "orderTotal": 99680,
+      "products": [
+        {
+          "product": {
+            "id": 5,
+            "title": "HTC Desire 626s",
+            "img": "/img/product-5.png",
+            "price": 25000,
+            "info": "Camera: 13+2 MP Dual rear camera | 8 MP front camera Display: 15.24 centimetres (6-inch) HD+ capacitive touchscreen with 720x1440 pixels, 268 ppi pixel density, 16.7M color support and 18:9 aspect ratio Memory, Storage & SIM: 3GB RAM | 32GB storage expandable up to 400GB | Dual SIM with dual-standby (4G+4G) Operating System and Processor: Android v8 Oreo operating system with 1.8GHz Cortex A53 Qualcomm Snapdragon 450 64-bit octa core processor"
+          },
+          "productQuantity": 1
+        },
+        {
+          "product": {
+            "id": 6,
+            "title": "Vintage Iphone",
+            "img": "/img/product-6.png",
+            "price": 27000,
+            "info": "Rotary dial fashion plate with push button technology 1950's payphone style with integrated coin bank Tone/Pulse switch and ringer volume On/Off switch Earpiece volume control Wall mountable"
+          },
+          "productQuantity": 1
+        },
+        {
+          "product": {
+            "id": 2,
+            "title": "Samsung S7",
+            "img": "/img/product-2.png",
+            "price": 18000,
+            "info": "S7 Edge smartphone runs on Android v6. 0 (Marshmallow) operating system. The phone is powered by Octa core (2.3 GHz, Quad core, M1 Mongoose + 1.6 GHz, Quad core, Cortex A53) processor. It runs on the Samsung Exynos 8 Octa 8890 Chipset. It has 4 GB RAM and 32 GB internal storage"
+          },
+          "productQuantity": 1
+        },
+        {
+          "product": {
+            "id": 3,
+            "title": "HTC 10 - Black",
+            "img": "/img/product-3.png",
+            "price": 19000,
+            "info": "Primary Camera 12 MP, f/1.8, 26mm, OIS, laser autofocus, dual-LED (dual tone) flash,1/2.3'' sensor size, 1.55µm pixel size, geo-tagging, touch focus, face detection, HDR, panorama, Video Camera 2160p@30fps, 720p@120fps, HDR, stereo sound rec Secondary Camera 5 MP, f/1.8, 23mm, OIS, autofocus, 1.34 µm pixel size, 1080p, HDR Non-removable Li-Ion 3000 mAh battery.Fast battery charging: 50% in 30 min (Quick Charge 3.0)"
+          },
+          "productQuantity": 1
+        }
+      ],
+      "id": 2
     }
   ],
   "users": [
