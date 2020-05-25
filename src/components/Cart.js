@@ -4,6 +4,11 @@ import { Table, Container, Row, Col, Image } from 'react-bootstrap';
 import CartOrderItem from './CartOrderItem';
 import CartItemRow from './CartItemRow';
 
+/**
+ * Cart Page to render on the screen based on the cart data
+ * 
+ * @param {cartData } cartData used to populate the Cart  
+ */
 const Cart = ({ cartData }) => {
     return cartData && cartData.products && cartData.products.length <= 0 ? (
         <div className="p-4 d-flex justify-content-center">

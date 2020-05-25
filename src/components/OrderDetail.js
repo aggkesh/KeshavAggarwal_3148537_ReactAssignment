@@ -4,6 +4,10 @@ import { Spinner, Table, Container, Image } from 'react-bootstrap';
 import { fetchOrderDetail } from '../redux';
 import { useHistory  } from 'react-router-dom';
 
+/**
+ * Order Detail to render every order detail with products
+ * @param {props} props 
+ */
 const OrderDetail = (props) => {
     const { fetchOrderDetail, orderDetailData, authData } = props
     const history = useHistory();
@@ -36,6 +40,10 @@ const OrderDetail = (props) => {
     )
 }
 
+/**
+ * render header of order detail
+ * @param {orderDetail} orderDetail 
+ */
 const renderOrderDetailHeader = (orderDetail) => {
     return (
         <React.Fragment>
@@ -70,6 +78,10 @@ const renderOrderDetailHeader = (orderDetail) => {
     )
 }
 
+/**
+ * render header of order detail body for populating products
+ * @param {products} list of porducts in order 
+ */
 const renderOrderDetailBody = (products) => {
     return (
         <React.Fragment>

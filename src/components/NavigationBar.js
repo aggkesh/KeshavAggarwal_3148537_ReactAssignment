@@ -6,6 +6,12 @@ import { Link } from "react-router-dom";
 import { logout } from '../redux';
 import { useHistory  } from 'react-router-dom'
 
+/**
+ * Navigation bar Ui
+ * 
+ * @param { authData } authData authenticate function
+ * @params { logout } logout function to call when logout called
+ */
 const NavigationBar = ({ authData, logout }) => {
   const history = useHistory()
 

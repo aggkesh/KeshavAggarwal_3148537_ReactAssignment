@@ -4,6 +4,12 @@ import { Spinner, Table, Container, Image } from 'react-bootstrap';
 import { fetchOrders } from '../redux';
 import { Link, useHistory } from "react-router-dom";
 
+/**
+ * Show all orders 
+ * @param { authData } authData authenticate 
+ * @param { ordersData } orderData populate orders using data
+ * @param { fetchOrders } fetchOrders function
+ */
 const Orders = ({ authData, ordersData, fetchOrders }) => {
     const history = useHistory();
 

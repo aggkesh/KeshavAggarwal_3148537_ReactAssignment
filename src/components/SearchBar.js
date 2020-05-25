@@ -5,6 +5,11 @@ import { fetchProducts } from '../redux';
 import { useHistory  } from 'react-router-dom';
 import { DEFAULT_SORT } from '../redux/productList/productsTypes';
 
+/**
+ * Search Bar UI
+ * @param {*} productData data of products
+ * @param {*} fetchProducts fucntion to fetch list of products
+ */
 function SearchBar({ productData, fetchProducts }) {
     const [search, setSearch] = useState("");
     const history = useHistory();

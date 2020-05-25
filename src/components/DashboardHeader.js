@@ -3,6 +3,12 @@ import { Dropdown, Col } from 'react-bootstrap';
 import { DEFAULT_SORT, LOW_TO_HIGH_SORT, HIGH_TO_LOW_SORT } from '../redux/productList/productsTypes';
 import { useHistory  } from 'react-router-dom';
 
+/**
+ * Dashboard Header Ui 
+ * 
+ * @param {productData} product Data to show dashboard ui
+ * @param {fetchProducts} function to fetch product from the store
+ */
 const DashboardHeader = ({ fetchProducts, productData }) => {
     const history = useHistory();
     const items = [DEFAULT_SORT, LOW_TO_HIGH_SORT, HIGH_TO_LOW_SORT];

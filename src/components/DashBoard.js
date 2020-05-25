@@ -7,6 +7,12 @@ import { fetchProducts } from '../redux';
 import DashboardHeader from './DashboardHeader';
 import { useHistory  } from 'react-router-dom';
 
+/**
+ * Dashboard Ui 
+ * 
+ * @param {productData} product Data to show dashboard ui
+ * @param {fetchProducts} function to fetch product from the store
+ */
 const DashBoard = ({ productData, fetchProducts }) => {
     const history = useHistory();
 

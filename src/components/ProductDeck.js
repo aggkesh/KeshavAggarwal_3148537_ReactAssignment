@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import { CardDeck } from "react-bootstrap";
 import Product from "./Product";
 
+/**
+ * Wrapper class hold the list of products and only allow max
+ * four product in a row
+ */
 class ProductDeck extends Component {
 
     render() {

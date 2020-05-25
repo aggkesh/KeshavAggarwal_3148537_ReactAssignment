@@ -3,6 +3,11 @@ import { connect } from 'react-redux';
 import { removeProductCart, changeProductQuantityInCart } from '../redux';
 import { Image, Row, Col, Dropdown, Button } from 'react-bootstrap';
 
+/**
+ * UI to show Row in Cart 
+ * 
+ * @param {CartItemRow} ui to show row in cart 
+ */
 const CartItemRow = ({ product, productQuantity, removeProductCart, changeProductQuantityInCart }) => {
     return (
         <tr>

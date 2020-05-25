@@ -17,6 +17,13 @@ function PagiNation({ productData, fetchProducts }) {
     )
 }
 
+/**
+ * Generate Diffent pages data
+ * 
+ * @param {*} productData populate products
+ * @param {*} fetchProducts fuction to fetch products
+ * @param {*} history history to move between app
+ */
 export const paginationItemsGenerator = (productData, fetchProducts, history) => {
     const paginationItems = [];
     const pages = numberOfPages(productData);
@@ -33,6 +40,11 @@ export const paginationItemsGenerator = (productData, fetchProducts, history) =>
     return paginationItems;
 }
 
+/**
+ * Number of pages for pagination
+ * 
+ * @param {*} productData products to determine number of pages
+ */
 export const numberOfPages = (productData) => {
     return  Math.ceil(Number(productData.productTotalCount) / 8);
 }

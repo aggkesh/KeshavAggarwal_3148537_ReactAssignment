@@ -4,6 +4,12 @@ import { Form, Button, Card, Alert } from 'react-bootstrap';
 import { authenticate } from '../redux';
 import { useHistory  } from 'react-router-dom';
 
+/**
+ * SignIn page Ui
+ * 
+ * @param {*} authData authetication data
+ * @param {*} authenticate function to authenticate
+ */
 function SignIn({ authData, authenticate }) {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");

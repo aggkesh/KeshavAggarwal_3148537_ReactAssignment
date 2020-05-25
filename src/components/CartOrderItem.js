@@ -4,6 +4,14 @@ import { clearCart, placeOrder } from '../redux';
 import { Table, Card, Button, ButtonGroup } from 'react-bootstrap';
 import { useHistory  } from 'react-router-dom'
 
+/**
+ * Show order item in cart
+ * 
+ * @param {CartOrderItem} Show orders for the user based on the cart data
+ * @param { authData } authentication data
+ * @param { clearCart } clear the user cart
+ * @param { placeOrder } place order for the cart data
+ */
 const CartOrderItem = ({ cartData, authData, clearCart, placeOrder }) => {
     const history = useHistory()
 

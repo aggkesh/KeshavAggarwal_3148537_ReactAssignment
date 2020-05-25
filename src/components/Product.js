@@ -4,6 +4,13 @@ import { Card, Button, ButtonGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { addProductCart } from '../redux';
 
+/**
+ * Product Ui
+ * 
+ * @param {*} products list of products
+ * @param {*} addProductCart fucntion to add product to cart
+ * @param {*} cartData cart Data to find list of products
+ */
 const Product = ({ product, addProductCart, cartData }) => {
 
     const isProductInCart = isProductPresentInCart(cartData.products, product)

@@ -64,6 +64,11 @@ const renderProduct = (products, product, addProductCart) => {
             )         
 }
 
+/**
+ * boolean value is product Present In Cart 
+ * @param {*} products list of products 
+ * @param {*} product product to find from the list
+ */
 const isProductPresentInCart = (products, product) => {
     const found  = products.find(p => p.product.id === product.id)
     return found != null

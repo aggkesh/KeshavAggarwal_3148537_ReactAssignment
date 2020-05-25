@@ -2,6 +2,11 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
+/**
+ * Error page UI 
+ * 
+ * @param {props} props 
+ */
 const ErrorPage = (props) => {
 
     const error = getError(props.match.params.id)
@@ -30,9 +35,6 @@ const ErrorPage = (props) => {
     )
 }
 
-/**
- * 
- */
 /**
  * Return the error model based on error code
  * 
