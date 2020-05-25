@@ -30,7 +30,7 @@ const Orders = ({ authData, ordersData, fetchOrders }) => {
     ) : ordersData.error ? (
         <h2>ordersData.error</h2>
     ) : (
-        ordersData && ordersData.length <= 0 ? (
+        ordersData && ordersData.orders.length <= 0 ? (
             <div className="p-4 d-flex justify-content-center">
                 <Image src={ '/img/noorderfound.png' } className="w-50"></Image>
             </div>

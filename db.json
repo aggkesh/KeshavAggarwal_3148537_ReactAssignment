@@ -169,7 +169,48 @@
       "info": "Quad rear camera - 64MP OIS F2.0 tele camera + 12MP F2.2 ultra wide + 12MP (2PD) OIS F1.8 wide + VGA depth camera | 10MP (2PD) OIS F2.2 front punch hole camera | rear LED flash 16.95 centimeters (6.7-inch) dynamic AMOLED display with capacitive touchscreen, 3200 x 1440 pixels resolution | Quad HD+ resolution Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB | Dual SIM (nano+nano) dual-standby (4G+4G), microSD card slot (expandable upto 1 TB), hybrid sim slot Android v10.0 operating system with 2.73GHz+2.5GHz+2GHz Exynos 990 octa core processor 4500mAH (non-removable) lithium-ion battery | Face-unlock & finger print sensor 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "username": "Keshav Aggarwal",
+      "orderDateAndTime": "2020-5-25 17:13:20",
+      "orderSubTotal": 204999,
+      "orderTax": 24599.88,
+      "orderTotal": 229598.88,
+      "products": [
+        {
+          "product": {
+            "id": 15,
+            "title": "Iphone 10",
+            "img": "/img/product-7.png",
+            "price": 50000,
+            "info": "5.8-inch Super Retina display (OLED) with HDR IP67 water and dust resistant (maximum depth of 1 meter up to 30 minutes) 12MP dual cameras with dual OIS and 7MP TrueDepth front camera—Portrait mode and Portrait Lighting Face ID for secure authentication A11 Bionic with Neural Engine Wireless charging—works with Qi chargers iOS 12 with Memoji, Screen Time, Siri Shortcuts, and Group FaceTime"
+          },
+          "productQuantity": 2
+        },
+        {
+          "product": {
+            "id": 21,
+            "title": "Asus Rog 2",
+            "img": "/img/product-5.png",
+            "price": 55000,
+            "info": "The Asus ROG Phone 2 continues to sport an industrial look, just like the first version, but it's a bit more tame this time around. The size is both bigger and heavier than its predecessor, making it one of the heaviest phones we've held in a while, measuring 9.48mm and weighing a whopping 240g. Face recognition is a lot quicker and works at odd angles too. The 6.59-inch AMOLED display has a full-HD+ resolution but what's impressive is that it has a 120Hz refresh rate. The ROG Phone 2 also features the second version of Asus's AirTrigger system. There's a new dual vibration system present too. The phone also uses a 3D vapour chamber system for cooling. It's powered by a special speed-binned Snapdragon 855+ SoC, LPDDR4X RAM, and UFS 3.0 storage. For the ROG Phone 2, you can choose a more vanilla Android theme during the setup process, instead of the default ROG theme. "
+          },
+          "productQuantity": 1
+        },
+        {
+          "product": {
+            "id": 17,
+            "title": "Google Pixel 4 - Black",
+            "img": "/img/product-1.png",
+            "price": 49999,
+            "info": "Google Pixel 4 smartphone was launched on 15th October 2019. The phone comes with a 5.70-inch touchscreen display with a resolution of 1080x2280 pixels at a pixel density of 444 pixels per inch (ppi) and an aspect ratio of 19:9. Google Pixel 4 is powered by an octa-core Qualcomm Snapdragon 855 processor. It comes with 6GB of RAM. The Google Pixel 4 runs Android 10 and is powered by a 2800mAh non-removable battery. The Google Pixel 4 supports proprietary fast charging. As far as the cameras are concerned, the Google Pixel 4 on the rear packs a 16-megapixel primary camera with an f/2.4 aperture and a pixel size of 1.0-micron and a second 12.2-megapixel camera with an f/1.7 aperture and a pixel size of 1.4-micron. The rear camera setup has phase detection autofocus. It sports a 8-megapixel camera on the front for selfies, with an f/2.0 aperture and a pixel size of 1.22-micron."
+          },
+          "productQuantity": 1
+        }
+      ],
+      "id": 1
+    }
+  ],
   "users": [
     {
       "id": 1,
