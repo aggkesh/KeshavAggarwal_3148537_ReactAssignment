@@ -49,8 +49,12 @@ const createRequest= (url, history, dispatch) => {
         .then(response => {
             const auth = response.data
             
-            auth && auth.length > 0 ? dispatch(fetchAuthenticationSuccess(auth[0].username)) :
+            if(auth && auth.length > 0) {
+                history.push('/dashboard')
+                dispatch(fetchAuthenticationSuccess(auth[0].username))
+            } else {
                 dispatch(fetchAuthenticationFailure("Unable to login either email or password is incorrect"))
+            } 
         })
         .catch(error => {
             const errorMessage = error.message

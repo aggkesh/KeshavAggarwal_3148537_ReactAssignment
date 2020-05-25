@@ -21,7 +21,7 @@ function SignIn({ authData, authenticate }) {
         if (form.checkValidity() === false) {
           event.stopPropagation();
         } else {
-            authenticate(email, password);
+            authenticate(email, password, history);
         }
         setValidated(true);
       };
@@ -59,7 +59,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        authenticate: (email, password) => dispatch(authenticate(email, password))
+        authenticate: (email, password, history) => dispatch(authenticate(email, password, history))
     }
 }
 

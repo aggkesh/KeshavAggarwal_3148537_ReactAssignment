@@ -12,18 +12,20 @@ const CartOrderItem = ({ cartData, authData, clearCart, placeOrder }) => {
             <Card.Body>
                 <Card.Title className="font-weight-bold">Order Detail</Card.Title>
                 <Table striped bordered hover>
-                    <tr>
-                        <td>Cart SubTotal</td>
-                        <td>{ cartData.cartSubTotal }</td>
-                    </tr>
-                    <tr>
-                        <td>Cart Tax</td>
-                        <td>{ cartData.cartTax }</td>
-                    </tr>
-                    <tr>
-                        <td>Cart Total</td>
-                        <td>{ cartData.cartTotal }</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Cart SubTotal</td>
+                            <td>{ cartData.cartSubTotal }</td>
+                        </tr>
+                        <tr>
+                            <td>Cart Tax</td>
+                            <td>{ cartData.cartTax }</td>
+                        </tr>
+                        <tr>
+                            <td>Cart Total</td>
+                            <td>{ cartData.cartTotal }</td>
+                        </tr>
+                    </tbody>    
                 </Table>
             </Card.Body>
             <ButtonGroup aria-label="Basic example">

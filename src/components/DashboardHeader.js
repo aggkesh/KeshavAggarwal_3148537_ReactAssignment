@@ -20,7 +20,7 @@ const DashboardHeader = ({ fetchProducts, productData }) => {
 
                         <Dropdown.Menu>
                             {
-                                items.map(item => <Dropdown.Item active={ productData.sort === item } onClick={
+                                items.map(item => <Dropdown.Item key={ item } active={ productData.sort === item } onClick={
                                         () => fetchProducts(productData.search, productData.activePage, item, history)}>{ item }
                                     </Dropdown.Item>)
                             }

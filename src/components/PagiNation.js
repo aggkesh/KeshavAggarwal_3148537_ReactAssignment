@@ -5,7 +5,7 @@ import { useHistory  } from 'react-router-dom';
 function PagiNation({ productData, fetchProducts }) {
 
     const history = useHistory();
-    const paginationItems = paginationItemsGenerator(productData, fetchProducts);
+    const paginationItems = paginationItemsGenerator(productData, fetchProducts, history);
     const pages = numberOfPages(productData);
 
     return(
@@ -17,7 +17,7 @@ function PagiNation({ productData, fetchProducts }) {
     )
 }
 
-export const paginationItemsGenerator = (productData, fetchProducts) => {
+export const paginationItemsGenerator = (productData, fetchProducts, history) => {
     const paginationItems = [];
     const pages = numberOfPages(productData);
 

@@ -44,7 +44,7 @@ const Orders = ({ authData, ordersData, fetchOrders }) => {
                             <tbody>
                                 {
                                     ordersData.orders.map(order => 
-                                        <tr>
+                                        <tr key={ order.id } >
                                             <td>{ order.id }</td>
                                             <td>{ order.products.length }</td>
                                             <td>{ order.orderDateAndTime }</td>

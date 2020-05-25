@@ -22,7 +22,7 @@ const Cart = ({ cartData }) => {
                         </thead>
                         <tbody>
                             {
-                                cartData.products.map(productData => <CartItemRow product={ productData.product } productQuantity={ productData.productQuantity } />)
+                                cartData.products.map(productData => <CartItemRow key={ productData.product.id } product={ productData.product } productQuantity={ productData.productQuantity } />)
                             }
                         </tbody>
                     </Table>

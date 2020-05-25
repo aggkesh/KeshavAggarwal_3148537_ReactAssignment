@@ -87,7 +87,7 @@ const renderOrderDetailBody = (products) => {
                 <tbody>
                     {
                         products.map((productData, index) => 
-                            <tr>
+                            <tr key={ productData.product.id }>
                                 <td>{ index + 1 }</td>                        
                                 <td><Image style={{ width:"150px", height:"150px" }} src={ productData.product.img } rounded /></td>
                                 <td>{ productData.product.title }</td>

@@ -30,7 +30,7 @@ const CartItemRow = ({ product, productQuantity, removeProductCart, changeProduc
                             <Dropdown.Menu>
                                 {
                                     Array.from(Array(10).keys()).map(
-                                        value => <Dropdown.Item onClick={() => changeProductQuantityInCart(product, value + 1)}>{ value + 1 }</Dropdown.Item>                                    
+                                        value => <Dropdown.Item key={ value + 1 } onClick={() => changeProductQuantityInCart(product, value + 1)}>{ value + 1 }</Dropdown.Item>                                    
                                     )
                                 }
                             </Dropdown.Menu>
