@@ -3,10 +3,23 @@ import { Pagination } from 'react-bootstrap';
 import { useHistory  } from 'react-router-dom';
 
 function PagiNation({ productData, fetchProducts }) {
-    
-    const paginationItems = [];
-    const pages = Math.ceil(Number(productData.productTotalCount) / 8);
+
     const history = useHistory();
+    const paginationItems = paginationItemsGenerator(productData, fetchProducts);
+    const pages = numberOfPages(productData);
+
+    return(
+        <Pagination size="lg" className="d-flex justify-content-center m-4">
+            <Pagination.Prev onClick={() => fetchProducts(productData.search, productData.activePage - 1, productData.sort, history) } disabled={ productData.activePage === 1 }/>
+            { paginationItems }
+            <Pagination.Next  onClick={() => fetchProducts(productData.search, productData.activePage + 1, productData.sort, history) } disabled={ productData.activePage === pages } />
+        </Pagination>
+    )
+}
+
+export const paginationItemsGenerator = (productData, fetchProducts) => {
+    const paginationItems = [];
+    const pages = numberOfPages(productData);
 
     for (let number = 1; number <= pages; number++) {
         paginationItems.push(
@@ -17,13 +30,11 @@ function PagiNation({ productData, fetchProducts }) {
         );
     }
 
-    return(
-        <Pagination size="lg" className="d-flex justify-content-center m-4">
-            <Pagination.Prev onClick={() => fetchProducts(productData.search, productData.activePage - 1, productData.sort, history) } disabled={ productData.activePage === 1 }/>
-            { paginationItems }
-            <Pagination.Next  onClick={() => fetchProducts(productData.search, productData.activePage + 1, productData.sort, history) } disabled={ productData.activePage === pages } />
-        </Pagination>
-    )
+    return paginationItems;
+}
+
+export const numberOfPages = (productData) => {
+    return  Math.ceil(Number(productData.productTotalCount) / 8);
 }
 
 export default PagiNation

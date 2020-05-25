@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Header Snapshot Test Cases renders correctly enzyme 1`] = `
+<Fragment>
+  <Col>
+    <span
+      className="display-4 font-weight-bold"
+    >
+      Dashboard
+    </span>
+  </Col>
+  <Col>
+    <Dropdown
+      className="float-right"
+      navbar={false}
+    >
+      <DropdownToggle
+        id="dropdown-basic"
+        variant="primary"
+      >
+        Sort
+      </DropdownToggle>
+      <DropdownMenu
+        alignRight={false}
+        flip={true}
+      >
+        <DropdownItem
+          active={true}
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "SafeAnchor",
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Default
+        </DropdownItem>
+        <DropdownItem
+          active={false}
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "SafeAnchor",
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          Low To High
+        </DropdownItem>
+        <DropdownItem
+          active={false}
+          as={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "SafeAnchor",
+              "render": [Function],
+            }
+          }
+          disabled={false}
+          onClick={[Function]}
+        >
+          High To Low
+        </DropdownItem>
+      </DropdownMenu>
+    </Dropdown>
+  </Col>
+</Fragment>
+`;

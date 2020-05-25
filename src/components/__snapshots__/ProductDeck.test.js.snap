@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Deck Snapshot Test Cases renders correctly enzyme 1`] = `
+<Fragment>
+  <CardDeck
+    className="m-3"
+    key="0"
+  >
+    <Connect(Product)
+      key="1"
+      product={
+        Object {
+          "id": 1,
+          "img": "/img/product-1.png",
+          "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+          "price": 19999,
+          "title": "Google Pixel - Black",
+        }
+      }
+    />
+    <Connect(Product)
+      key="2"
+      product={
+        Object {
+          "id": 2,
+          "img": "/img/product-2.png",
+          "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+          "price": 16,
+          "title": "Samsung S7",
+        }
+      }
+    />
+  </CardDeck>
+</Fragment>
+`;

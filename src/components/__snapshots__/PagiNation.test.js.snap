@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination Snapshot Test Cases renders correctly enzyme 1`] = `
+<ForwardRef
+  className="d-flex justify-content-center m-4"
+  size="lg"
+>
+  <Prev
+    disabled={false}
+    onClick={[Function]}
+  />
+  <Next
+    disabled={false}
+    onClick={[Function]}
+  />
+</ForwardRef>
+`;

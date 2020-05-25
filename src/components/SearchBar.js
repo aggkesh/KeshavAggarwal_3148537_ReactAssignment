@@ -14,11 +14,7 @@ function SearchBar({ productData, fetchProducts }) {
             <InputGroup>
                 <FormControl placeholder="Search.." value={ search } onChange={e => {
                     setSearch(e.target.value)
-                    if(e.target.value === '') {
-                        fetchProducts(e.target.value, 1, DEFAULT_SORT, history)
-                    } else {
-                        fetchProducts(e.target.value, productData.activePage, productData.sort, history)
-                    }}} />
+                    fetchProducts(e.target.value, 1, DEFAULT_SORT, history)}} />
                 <InputGroup.Append>
                     <Button variant="outline-secondary" onClick={() => fetchProducts(search, productData.activePage, productData.sort, history)}><i className="fa fa-search"></i></Button>
                 </InputGroup.Append>
