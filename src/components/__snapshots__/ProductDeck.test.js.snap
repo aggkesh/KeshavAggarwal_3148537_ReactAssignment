@@ -5,6 +5,11 @@ exports[`Product Deck Snapshot Test Cases renders correctly enzyme 1`] = `
   <CardDeck
     className="m-3"
     key="0"
+    style={
+      Object {
+        "width": "616px",
+      }
+    }
   >
     <Connect(Product)
       key="1"

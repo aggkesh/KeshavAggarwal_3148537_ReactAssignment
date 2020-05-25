@@ -34,6 +34,7 @@ exports[`Dashboard Header Snapshot Test Cases renders correctly enzyme 1`] = `
             }
           }
           disabled={false}
+          key="Default"
           onClick={[Function]}
         >
           Default
@@ -48,6 +49,7 @@ exports[`Dashboard Header Snapshot Test Cases renders correctly enzyme 1`] = `
             }
           }
           disabled={false}
+          key="Low To High"
           onClick={[Function]}
         >
           Low To High
@@ -62,6 +64,7 @@ exports[`Dashboard Header Snapshot Test Cases renders correctly enzyme 1`] = `
             }
           }
           disabled={false}
+          key="High To Low"
           onClick={[Function]}
         >
           High To Low

@@ -10,7 +10,7 @@ const Product = ({ product, addProductCart, cartData }) => {
 
     return (
         <Card key={ product.id }>
-            <Card.Img variant="top" src={ product.img } />
+            <Card.Img variant="top" src={ product.img } style={{ width:"250px", height:"250px" }}/>
             <Card.Body>
                 <Card.Title>{ product.title }</Card.Title>
                 <span>Rs { product.price }/-</span>

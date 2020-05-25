@@ -4,539 +4,172 @@
       "id": 1,
       "title": "Google Pixel - Black",
       "img": "/img/product-1.png",
-      "price": 19999,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 20000,
+      "info": "12.2MP primary camera and 8MP front facing camera 12.7 centimeters (5-inch) capacitive touchscreen with 1080 x 1920 pixels resolution Android v8.0.1 Oreo operating system with 2.35GHz + 1.9GHz Kryo Snapdragon 835 octa core processor, Adreno 540 GPU, 4GB RAM, 64GB internal memory and single nano SIM 2700mAH lithium-ion battery 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
     },
     {
       "id": 2,
       "title": "Samsung S7",
       "img": "/img/product-2.png",
-      "price": 16,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 18000,
+      "info": "S7 Edge smartphone runs on Android v6. 0 (Marshmallow) operating system. The phone is powered by Octa core (2.3 GHz, Quad core, M1 Mongoose + 1.6 GHz, Quad core, Cortex A53) processor. It runs on the Samsung Exynos 8 Octa 8890 Chipset. It has 4 GB RAM and 32 GB internal storage"
     },
     {
       "id": 3,
       "title": "HTC 10 - Black",
       "img": "/img/product-3.png",
-      "price": 8,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 19000,
+      "info": "Primary Camera 12 MP, f/1.8, 26mm, OIS, laser autofocus, dual-LED (dual tone) flash,1/2.3'' sensor size, 1.55µm pixel size, geo-tagging, touch focus, face detection, HDR, panorama, Video Camera 2160p@30fps, 720p@120fps, HDR, stereo sound rec Secondary Camera 5 MP, f/1.8, 23mm, OIS, autofocus, 1.34 µm pixel size, 1080p, HDR Non-removable Li-Ion 3000 mAh battery.Fast battery charging: 50% in 30 min (Quick Charge 3.0)"
     },
     {
       "id": 4,
       "title": "HTC 10 - White",
       "img": "/img/product-4.png",
-      "price": 18,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 16000,
+      "info": "Primary Camera 12 MP, f/1.8, 26mm, OIS, laser autofocus, dual-LED (dual tone) flash,1/2.3'' sensor size, 1.55µm pixel size, geo-tagging, touch focus, face detection, HDR, panorama, Video Camera 2160p@30fps, 720p@120fps, HDR, stereo sound rec Secondary Camera 5 MP, f/1.8, 23mm, OIS, autofocus, 1.34 µm pixel size, 1080p, HDR Non-removable Li-Ion 3000 mAh battery.Fast battery charging: 50% in 30 min (Quick Charge 3.0)"
     },
     {
       "id": 5,
       "title": "HTC Desire 626s",
       "img": "/img/product-5.png",
-      "price": 24,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 25000,
+      "info": "Camera: 13+2 MP Dual rear camera | 8 MP front camera Display: 15.24 centimetres (6-inch) HD+ capacitive touchscreen with 720x1440 pixels, 268 ppi pixel density, 16.7M color support and 18:9 aspect ratio Memory, Storage & SIM: 3GB RAM | 32GB storage expandable up to 400GB | Dual SIM with dual-standby (4G+4G) Operating System and Processor: Android v8 Oreo operating system with 1.8GHz Cortex A53 Qualcomm Snapdragon 450 64-bit octa core processor"
     },
     {
       "id": 6,
       "title": "Vintage Iphone",
       "img": "/img/product-6.png",
-      "price": 17,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 27000,
+      "info": "Rotary dial fashion plate with push button technology 1950's payphone style with integrated coin bank Tone/Pulse switch and ringer volume On/Off switch Earpiece volume control Wall mountable"
     },
     {
       "id": 7,
       "title": "Iphone 7",
       "img": "/img/product-7.png",
-      "price": 30,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 45000,
+      "info": "4.7-inch Retina HD display IP67 water and dust resistant (maximum depth of 1 meter up to 30 minutes) 12MP camera and 4K video 7MP FaceTime HD camera with Retina Flash Touch ID for secure authentication A10 Fusion chip iOS 12 with Screen Time, Group FaceTime, and even faster performance"
     },
     {
       "id": 8,
       "title": "Smashed Iphone",
       "img": "/img/product-8.png",
-      "price": 2,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 2050,
+      "info": "The screen is cracked It has excessive scratches, dents, or chips Microphones or speakers are broken Buttons and keys are faulty Battery is broken or missing It doesn’t power up SIM gate is broken Operating system is missing or corrupt"
     },
     {
       "id": 9,
-      "title": "Google Pixel - Black",
+      "title": "Xiaomi Redmi 5a",
       "img": "/img/product-1.png",
-      "price": 19999,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 6000,
+      "info": "With a wide screen display of 5 inches and a 2 GB RAM memory, the Redmi 5A is a popular choice in the range of smartphones that Redmi has to offer. The Redmi 5A features a powerful Snapdragon 425 processor to get more out of your smartphone in terms of processing power. Equipped with a Snapdragon 425 processor and a 2 GB RAM, the Redmi Note 5 breathes more processing power when you are into visually intense games or shuffling between apps on your phone. The Redmi 5A comes with a 3000 mAh battery for more standby time. Call more, click more and play more with an extended battery life for the smartphone."
     },
     {
       "id": 10,
-      "title": "Samsung S7",
+      "title": "Vivo s-10",
       "img": "/img/product-2.png",
-      "price": 16,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 10000,
+      "info": "Additionally, the two phones have 4,500mAh battery, 32-megapixel selfie shooter on the front, 6GB and 8GB RAM options, and 128GB of onboard storage. Samsung Galaxy S10 Lite is powered by an unnamed 7nm octa-core processor that is widely believed to be Snapdragon 855, whereas Galaxy Note 10 Lite has a 10nm octa-core SoC. Both phones also feature triple rear cameras, however the setup is different. Samsung Galaxy S10 Lite has 48-megapixel, 5-megapixel, and 12-megapixel image sensors, whereas Galaxy Note 10 Lite comes with three 12-megapixel image sensors."
     },
     {
       "id": 11,
-      "title": "HTC 10 - Black",
+      "title": "Oppo f-15",
       "img": "/img/product-3.png",
-      "price": 8,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 9000,
+      "info": "48MP+8MP+2MP+2MP rear camera with photo, video, professional mode, panorama, portrait, night scene, time-lapse photography, slow motion | 16MP front camera 16.2 centimeters (6.4-inch) AMOLED screen display with 2400 x 1080 pixels resolution, 408 ppi pixel density and 16M color support | Gorilla glass 5 | DC screen dimming 2.0 | 90.7% screen to body ratio Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G) Android Pie v9.0 based on Color OS 6.1 operating system with 2.1GHz MediaTek Helio P70 octa core processor, ARM Mali G72 4000mAH lithium-polymer battery 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
     },
     {
       "id": 12,
-      "title": "HTC 10 - White",
+      "title": "One Plus 7T Pro",
       "img": "/img/product-4.png",
-      "price": 18,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 28000,
+      "info": "48+8+16MP triple rear camera with telephoto lens + ultrawide angle lens | 16MP front camera with 4K video capture @ 30/60 FPS, ultrashot, nightscape, portrait, pro mode, panorama, HDR, AI scene detection, RAW image 16.94 centimeters (6.67 inch) 90Hz fluid display with 3120 x 1440 pixels resolution and 516 ppi pixel density Memory, Storage & SIM: 8GB RAM | 256GB internal memory | Dual SIM (nano+nano) dual-standby (4G+4G) Oxygen OS based on Android v10 operating system with 2.96GHz Qualcomm Snapdragon 855 Plus AI Engine octa-core, 7nm processor, Adreno 640 4085mAH lithium-ion battery 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
     },
     {
       "id": 13,
-      "title": "HTC Desire 626s",
+      "title": "Galaxy M-30",
       "img": "/img/product-5.png",
-      "price": 24,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 24000,
+      "info": "48MP + 8MP + 5MP triple rear camera | 16MP front facing camera 16.21 centimeters (6.4-inch) FHD+ capacitive touchscreen with 2340 x 1080 pixels resolution 16M color support Memory, Storage & SIM: 4GB RAM | 64GB storage expandable up to 512GB | Dual nano SIM with dual standby (4G+4G) Android v9.0 Pie operating system with 2.3GHz + 1.7GHz Exynos 9611 octa core processor 6000mAH lithium-ion battery with fast charging | 15W Type-C fast charger in the box 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
     },
     {
       "id": 14,
-      "title": "Vintage Iphone",
+      "title": "Redmi Note 8 Pro",
       "img": "/img/product-6.png",
-      "price": 17,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 12000,
+      "info": "64MP AI Quad rear camera with portrait, ultra-wide lens, macro lens, LED flash, AI support, beautify support | 20MP front camera | Dedicated depth sensor Performance: Smooth gaming experience with powerful Helio G90T gaming processor, Game turbo and Liquid cooling technology 16.58 centimeters (6.53-inch) Dot Notch HDR Display with 2340 x 1080 pixels resolution and 19.5:9 aspect ratio | 2.5D curved glass With Amazon Alexa built-in: Simply say “Alexa” to play music, hear the news, control your smart devices or check the weather wherever you are. Just ask - and Alexa will respond instantly Memory, Storage & SIM: 6GB RAM | 64GB internal memory expandable up to 512GB | Dual SIM (nano+nano) dual-standby (4G+4G)"
     },
     {
       "id": 15,
-      "title": "Iphone 7",
+      "title": "Iphone 10",
       "img": "/img/product-7.png",
-      "price": 30,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 50000,
+      "info": "5.8-inch Super Retina display (OLED) with HDR IP67 water and dust resistant (maximum depth of 1 meter up to 30 minutes) 12MP dual cameras with dual OIS and 7MP TrueDepth front camera—Portrait mode and Portrait Lighting Face ID for secure authentication A11 Bionic with Neural Engine Wireless charging—works with Qi chargers iOS 12 with Memoji, Screen Time, Siri Shortcuts, and Group FaceTime"
     },
     {
       "id": 16,
-      "title": "Smashed Iphone",
+      "title": "Broken Iphone 11",
       "img": "/img/product-8.png",
-      "price": 2,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 12000,
+      "info": "6.1-inch Liquid Retina HD LCD display Water and dust resistant (2 meters for up to 30 minutes, IP68) Dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, Portrait mode, and 4K video up to 60fps 12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo Face ID for secure authentication and Apple Pay A13 Bionic chip with third-generation Neural Engine Fast-charge capable Wireless charging Manufacturer Detail: Apple Inc, One Apple Park Way, Cupertino, CA 95014, USA"
     },
     {
       "id": 17,
-      "title": "Google Pixel - Black",
+      "title": "Google Pixel 4 - Black",
       "img": "/img/product-1.png",
-      "price": 19999,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 49999,
+      "info": "Google Pixel 4 smartphone was launched on 15th October 2019. The phone comes with a 5.70-inch touchscreen display with a resolution of 1080x2280 pixels at a pixel density of 444 pixels per inch (ppi) and an aspect ratio of 19:9. Google Pixel 4 is powered by an octa-core Qualcomm Snapdragon 855 processor. It comes with 6GB of RAM. The Google Pixel 4 runs Android 10 and is powered by a 2800mAh non-removable battery. The Google Pixel 4 supports proprietary fast charging. As far as the cameras are concerned, the Google Pixel 4 on the rear packs a 16-megapixel primary camera with an f/2.4 aperture and a pixel size of 1.0-micron and a second 12.2-megapixel camera with an f/1.7 aperture and a pixel size of 1.4-micron. The rear camera setup has phase detection autofocus. It sports a 8-megapixel camera on the front for selfies, with an f/2.0 aperture and a pixel size of 1.22-micron."
     },
     {
       "id": 18,
-      "title": "Samsung S7",
+      "title": "Samsung S10+",
       "img": "/img/product-2.png",
-      "price": 16,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 70000,
+      "info": "Galaxy S10+. This smartphone sits right between the other two devices and has a 6.1-inch display. This display has QHD+ resolution but you can change the resolution of the display panel. It also has an ultrasonic in-display fingerprint scanner which is super quick to unlock the smartphone. The sixe of the device is perfect for single-hand use. It also has a hole-punch design at the front. Powering the Galaxy S10 is the Samsung Exynos 9820 SoC that is very capable and can run most apps and games on the app store. This powerful SoC is paired with 8GB of RAM and 128GB of storage which makes it very easy for multitasking with this smartphone. Samsung ships this device with One UI running on top of Android 9 Pie. Samsung has also preinstalled a couple of apps on the device."
     },
     {
       "id": 19,
-      "title": "HTC 10 - Black",
+      "title": "Honor 10",
       "img": "/img/product-3.png",
-      "price": 8,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 33333,
+      "info": "The Honor 10 has 6GB of RAM, a non-removable 3,400mAh battery, and 128GB of storage which cannot be expanded. Connectivity options include Wi-Fi 802.11ac, Bluetooth 4.2, GPS, GLONASS, NFC, 4G VoLTE, a USB Type-C port (USB 2.0 speed), and a 3.5mm headphone jack. The smartphone also has a digital compass, ambient light sensor, gravity sensor, gyroscope, and Hall sensor. It supports 4G VoLTE on both SIMs. The Honor 10 features a 5.84-inch full-HD+ IPS LCD with an aspect ratio of 19:9 and a pixel density of 432ppi. You can choose between FHD+ and HD+ in the settings menu in order to save battery life, or set it to auto and let the phone decide for itself."
     },
     {
       "id": 20,
-      "title": "HTC 10 - White",
+      "title": "Lava z-60",
       "img": "/img/product-4.png",
-      "price": 18,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 16500,
+      "info": "Lava Z60 smartphone was launched in September 2017. The phone comes with a 5.00-inch touchscreen display at a pixel density of 196 pixels per inch (ppi). Lava Z60 is powered by a 1.1GHz quad-core processor. It comes with 1GB of RAM. The Lava Z60 runs Android 7.0 and is powered by a 2500mAh non-removable battery. As far as the cameras are concerned, the Lava Z60 on the rear packs 5-megapixel camera. It sports a 5-megapixel camera on the front for selfies. Lava Z60 based on Android 7.0 and packs 16GB of inbuilt storage. The Lava Z60 is a dual-SIM (GSM and GSM) smartphone. The Lava Z60 measures 143.60 x 72.30 x 9.10mm (height x width x thickness) and weighs 149.00 grams. It was launched in Black and Gold colours."
     },
     {
       "id": 21,
-      "title": "HTC Desire 626s",
+      "title": "Asus Rog 2",
       "img": "/img/product-5.png",
-      "price": 24,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 55000,
+      "info": "The Asus ROG Phone 2 continues to sport an industrial look, just like the first version, but it's a bit more tame this time around. The size is both bigger and heavier than its predecessor, making it one of the heaviest phones we've held in a while, measuring 9.48mm and weighing a whopping 240g. Face recognition is a lot quicker and works at odd angles too. The 6.59-inch AMOLED display has a full-HD+ resolution but what's impressive is that it has a 120Hz refresh rate. The ROG Phone 2 also features the second version of Asus's AirTrigger system. There's a new dual vibration system present too. The phone also uses a 3D vapour chamber system for cooling. It's powered by a special speed-binned Snapdragon 855+ SoC, LPDDR4X RAM, and UFS 3.0 storage. For the ROG Phone 2, you can choose a more vanilla Android theme during the setup process, instead of the default ROG theme. "
     },
     {
       "id": 22,
-      "title": "Vintage Iphone",
+      "title": "Samsung S9+",
       "img": "/img/product-6.png",
-      "price": 17,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 40000,
+      "info": "The Samsung Galaxy S9+ features a metal and glass design, with tapering edges on both sides. It has a 6.2-inch Quad HD+ Super AMOLED display with an 18.5:9 aspect ratio. Touch response and colours are superb and it also supports HDR. In India, the phone uses an Exynos 9810 octa-core SoC and comes with 6GB of RAM a choice of 64GB or 256GB internal storage, which is expandable. The stereo speakers delivers good sound quality and there's wireless charging here too. The main highlight is the camera, which features a variable aperture, super slow motion videos up to 960fps and AR Emojis. Camera performance is good too, especially in low light. There's also a second telephoto lens for shooting portraits and for optical zoom. The 3500mAh battery supports fast charging and should easily last an entire day on a single charge."
     },
     {
       "id": 23,
-      "title": "Iphone 7",
+      "title": "Iphone 5s",
       "img": "/img/product-7.png",
-      "price": 30,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 27000,
+      "info": "Apple iPhone 5s smartphone was launched in September 2013. The phone comes with a 4.00-inch touchscreen display with a resolution of 640x1136 pixels at a pixel density of 326 pixels per inch (ppi) and an aspect ratio of 16:9. Apple iPhone 5s is powered by a 1.3GHz dual-core Apple A7 processor. It comes with 1GB of RAM. The Apple iPhone 5s runs iOS 7 and is powered by a 1570mAh non-removable battery. As far as the cameras are concerned, the Apple iPhone 5s on the rear packs an 8-megapixel camera with an f/2.2 aperture and a pixel size of 1.5-micron. The rear camera setup has autofocus. It sports a 1.2-megapixel camera on the front for selfies, with an f/2.4 aperture. Apple iPhone 5s based on iOS 7 and packs 16GB of inbuilt storage. The Apple iPhone 5s is a single SIM (GSM) smartphone that accepts a Nano-SIM card. The Apple iPhone 5s measures 123.80 x 58.60 x 7.60mm (height x width x thickness) and weighs 112.00 grams. It was launched in Black, Gold, Grey, Silver, and Space Grey colours. It bears a metal body."
     },
     {
       "id": 24,
-      "title": "Smashed Iphone",
+      "title": "Broken Galaxy S-20+",
       "img": "/img/product-8.png",
-      "price": 2,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 25,
-      "title": "Google Pixel - Black",
-      "img": "/img/product-1.png",
-      "price": 19999,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 26,
-      "title": "Samsung S7",
-      "img": "/img/product-2.png",
-      "price": 16,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 27,
-      "title": "HTC 10 - Black",
-      "img": "/img/product-3.png",
-      "price": 8,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 28,
-      "title": "HTC 10 - White",
-      "img": "/img/product-4.png",
-      "price": 18,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 29,
-      "title": "HTC Desire 626s",
-      "img": "/img/product-5.png",
-      "price": 24,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 30,
-      "title": "Vintage Iphone",
-      "img": "/img/product-6.png",
-      "price": 17,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 31,
-      "title": "Iphone 7",
-      "img": "/img/product-7.png",
-      "price": 30,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-    },
-    {
-      "id": 32,
-      "title": "Smashed Iphone",
-      "img": "/img/product-8.png",
-      "price": 2,
-      "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
+      "price": 34000,
+      "info": "Quad rear camera - 64MP OIS F2.0 tele camera + 12MP F2.2 ultra wide + 12MP (2PD) OIS F1.8 wide + VGA depth camera | 10MP (2PD) OIS F2.2 front punch hole camera | rear LED flash 16.95 centimeters (6.7-inch) dynamic AMOLED display with capacitive touchscreen, 3200 x 1440 pixels resolution | Quad HD+ resolution Memory, Storage & SIM: 8GB RAM | 128GB internal memory expandable up to 1TB | Dual SIM (nano+nano) dual-standby (4G+4G), microSD card slot (expandable upto 1 TB), hybrid sim slot Android v10.0 operating system with 2.73GHz+2.5GHz+2GHz Exynos 990 octa core processor 4500mAH (non-removable) lithium-ion battery | Face-unlock & finger print sensor 1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the date of purchase"
     }
   ],
-  "orders": [
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-24 16:59:12",
-      "orderSubTotal": 20015,
-      "orderTax": 2401.8,
-      "orderTotal": 22416.8,
-      "products": [
-        {
-          "product": {
-            "id": 1,
-            "title": "Google Pixel - Black",
-            "img": "/img/product-1.png",
-            "price": 19999,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 2,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        }
-      ],
-      "id": 1
-    },
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-24 18:7:8",
-      "orderSubTotal": 60037,
-      "orderTax": 7204.44,
-      "orderTotal": 67241.44,
-      "products": [
-        {
-          "product": {
-            "id": 2,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 2
-        },
-        {
-          "product": {
-            "id": 3,
-            "title": "HTC 10 - Black",
-            "img": "/img/product-3.png",
-            "price": 8,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 1,
-            "title": "Google Pixel - Black",
-            "img": "/img/product-1.png",
-            "price": 19999,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 3
-        }
-      ],
-      "id": 2
-    },
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-24 18:15:23",
-      "orderSubTotal": 72,
-      "orderTax": 8.64,
-      "orderTotal": 80.64,
-      "products": [
-        {
-          "product": {
-            "id": 3,
-            "title": "HTC 10 - Black",
-            "img": "/img/product-3.png",
-            "price": 8,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 3
-        },
-        {
-          "product": {
-            "id": 2,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 3
-        }
-      ],
-      "id": 3
-    },
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-24 18:20:21",
-      "orderSubTotal": 128,
-      "orderTax": 15.36,
-      "orderTotal": 143.36,
-      "products": [
-        {
-          "product": {
-            "id": 2,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 3
-        },
-        {
-          "product": {
-            "id": 10,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 18,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 3
-        },
-        {
-          "product": {
-            "id": 26,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        }
-      ],
-      "id": 4
-    },
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-24 18:39:38",
-      "orderSubTotal": 168,
-      "orderTax": 20.16,
-      "orderTotal": 188.16,
-      "products": [
-        {
-          "product": {
-            "id": 2,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 10
-        },
-        {
-          "product": {
-            "id": 3,
-            "title": "HTC 10 - Black",
-            "img": "/img/product-3.png",
-            "price": 8,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        }
-      ],
-      "id": 5
-    },
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-24 20:17:17",
-      "orderSubTotal": 42,
-      "orderTax": 5.04,
-      "orderTotal": 47.04,
-      "products": [
-        {
-          "product": {
-            "id": 18,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 19,
-            "title": "HTC 10 - Black",
-            "img": "/img/product-3.png",
-            "price": 8,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 20,
-            "title": "HTC 10 - White",
-            "img": "/img/product-4.png",
-            "price": 18,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        }
-      ],
-      "id": 6
-    },
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-25 14:43:5",
-      "orderSubTotal": 20023,
-      "orderTax": 2402.76,
-      "orderTotal": 22425.76,
-      "products": [
-        {
-          "product": {
-            "id": 1,
-            "title": "Google Pixel - Black",
-            "img": "/img/product-1.png",
-            "price": 19999,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 2,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 3,
-            "title": "HTC 10 - Black",
-            "img": "/img/product-3.png",
-            "price": 8,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        }
-      ],
-      "id": 7
-    },
-    {
-      "username": "Keshav Aggarwal",
-      "orderDateAndTime": "2020-5-25 14:54:55",
-      "orderSubTotal": 20053,
-      "orderTax": 2406.36,
-      "orderTotal": 22459.36,
-      "products": [
-        {
-          "product": {
-            "id": 1,
-            "title": "Google Pixel - Black",
-            "img": "/img/product-1.png",
-            "price": 19999,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 2,
-            "title": "Samsung S7",
-            "img": "/img/product-2.png",
-            "price": 16,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 3,
-            "title": "HTC 10 - Black",
-            "img": "/img/product-3.png",
-            "price": 8,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        },
-        {
-          "product": {
-            "id": 7,
-            "title": "Iphone 7",
-            "img": "/img/product-7.png",
-            "price": 30,
-            "info": "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify."
-          },
-          "productQuantity": 1
-        }
-      ],
-      "id": 8
-    }
-  ],
+  "orders": [],
   "users": [
     {
       "id": 1,
