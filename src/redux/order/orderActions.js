@@ -39,10 +39,10 @@ export const fetchOrderDetailRequest = () => {
     }
 }
 
-export const fetchOrderDetailSuccess = (orders) => {
+export const fetchOrderDetailSuccess = (order) => {
     return {
         type: FETCH_ORDERDETAIL_SUCCESS,
-        payload: orders
+        payload: order
     }
 }
 

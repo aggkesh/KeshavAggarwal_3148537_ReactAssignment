@@ -39,7 +39,7 @@ const ErrorPage = (props) => {
  * @param errorcode error code for the error
  * @returns errordetail model based on the given error code
  */
-const getError = (errorcode) => {
+export const getError = (errorcode) => {
 
     switch(errorcode) {
         case "404":

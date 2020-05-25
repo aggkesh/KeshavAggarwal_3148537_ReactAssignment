@@ -1,4 +1,8 @@
-import { FETCH_PRODUCTDETAIL_REQUEST, FETCH_PRODUCTDETAIL_SUCCESS, FETCH_PRODUCTDETAIL_FAILURE } from "./productDetailTypes"
+import { 
+    FETCH_PRODUCTDETAIL_REQUEST, 
+    FETCH_PRODUCTDETAIL_SUCCESS, 
+    FETCH_PRODUCTDETAIL_FAILURE 
+} from "./productDetailTypes"
 
 const initialState = {
     default: true,
@@ -26,7 +30,7 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 loading: false,
-                productDetail: [],
+                productDetail: {},
                 error: action.payload
             }        
         default: return state    
